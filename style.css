@@ -33,4 +33,7 @@ nav {
    display: inline-block;
    list-style-type: none;
  }
+ nav ul {
+   margin-left: 80px;
+ }
 
