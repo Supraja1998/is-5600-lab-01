@@ -120,3 +120,15 @@ header div a {
  .social .comment {
    background-image: url(./images/comment.png);
  }
+ main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; /* Ensures no gaps at the end of rows */
+   gap: 10px; /* Adds consistent spacing between cards */
+}
+
+.card {
+   flex: 1 1 calc(33.333% - 10px); /* Flexible width, filling one-third of the row */
+   margin: 10px 0; /* Vertical spacing between rows */
+   background-color: white;
+}
